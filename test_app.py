@@ -7,7 +7,7 @@ class TestApp(unittest.TestCase):
     def test_greet(self):
         self.assertEqual(
             greet(),
-            "Hello"
+            "Hello world"
         )
 
 if __name__ == "__main__":
